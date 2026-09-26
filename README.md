@@ -48,7 +48,7 @@ The website is intentionally designed to feel:
 
 A new chapter begins.
 
-**+1 — Years of Becoming 🌸**
+**+1 - Years of Becoming 🌸**
 
 ---
 

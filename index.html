@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0e0b12">
+  <meta name="description" content="A personal birthday celebration for Priscilla Onifade.">
+  <title>Priscilla - A Beautiful Celebration</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <div class="glow glow-one" aria-hidden="true"></div>
+  <div class="glow glow-two" aria-hidden="true"></div>
+
+  <header class="hero" id="home">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="Priscilla home">P<span>.</span></a>
+      <div class="nav-links">
+        <a href="#about">About her</a>
+        <a href="#wishes">Wishes</a>
+        <a href="#celebrate">Celebrate</a>
+      </div>
+      <a class="nav-pill" href="#wishes">For Priscilla</a>
+    </nav>
+
+    <div class="hero-content container">
+      <p class="eyebrow"><span></span> A little celebration of a beautiful soul <span></span></p>
+      <h1>Happy Birthday,<br><em>Priscilla.</em></h1>
+      <p class="hero-copy">Today is a gentle reminder of how special it is that you are here - growing, becoming, and making the world a little brighter simply by being you.</p>
+      <div class="hero-actions">
+        <a class="button button-primary" href="#about">Discover her story <span>↓</span></a>
+        <a class="button button-quiet" href="#wishes">Birthday wishes</a>
+      </div>
+    </div>
+
+    <div class="portrait-wrap" aria-label="Portrait of Priscilla">
+      <div class="portrait-ring"></div>
+      <img src="image/Priscilla.png" alt="Priscilla Onifade">
+      <div class="portrait-note">+1 <span>year of becoming</span></div>
+    </div>
+
+    <div class="scroll-cue" aria-hidden="true"><span></span> Scroll to celebrate</div>
+  </header>
+
+  <main>
+    <section class="intro section" id="about">
+      <div class="container intro-grid">
+        <div>
+          <p class="section-kicker">01 - HER ESSENCE</p>
+          <h2>Some people make an impression.<br><em>She leaves a feeling.</em></h2>
+        </div>
+        <div class="intro-copy">
+          <p>Priscilla, this little corner of the internet is yours. Not a crowded timeline. Not a collection of ordinary birthday greetings. Just a quiet, beautiful space made to celebrate <strong>you</strong>.</p>
+          <p>May this new chapter bring you meaningful moments, kind people, answered prayers, and reasons to smile that stay long after today.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="wishes section" id="wishes">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="section-kicker">02 - A FEW WORDS FOR YOU</p>
+            <h2>For the woman<br><em>you are becoming.</em></h2>
+          </div>
+          <p class="heading-note">Keep this page. Come back whenever you need a reminder of how celebrated you are.</p>
+        </div>
+
+        <div class="wish-grid">
+          <article class="wish-card featured">
+            <span class="card-number">01</span>
+            <span class="card-icon">✦</span>
+            <h3>May your light stay bright.</h3>
+            <p>May you never lose the beautiful things that make you uniquely you. Keep growing, keep dreaming, and keep becoming.</p>
+          </article>
+          <article class="wish-card">
+            <span class="card-number">02</span>
+            <span class="card-icon">♡</span>
+            <h3>May life be kind to you.</h3>
+            <p>May the road ahead carry more peace, genuine laughter, good news, and moments worth remembering.</p>
+          </article>
+          <article class="wish-card">
+            <span class="card-number">03</span>
+            <span class="card-icon">✧</span>
+            <h3>May your dreams find you.</h3>
+            <p>May the things you quietly hope for become beautiful realities, one chapter at a time.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="portrait-section section" id="celebrate">
+      <div class="container portrait-grid">
+        <div class="image-frame">
+          <div class="frame-label">PRISCILLA ONIFADE</div>
+          <img src="image/Priscilla.png" alt="Priscilla smiling">
+          <div class="frame-caption">A face worth remembering.<br><em>A person worth celebrating.</em></div>
+        </div>
+        <div class="portrait-message">
+          <p class="section-kicker">03 - TODAY & ALWAYS</p>
+          <div class="large-quote">“</div>
+          <blockquote>Here’s to another beautiful chapter - to the lessons that shaped you, the people who love you, and every good thing still ahead.</blockquote>
+          <p class="signature">Happy Birthday, Priscilla <span>♥</span></p>
+          <p class="small-note">May your new year be full of grace, growth, joy, and beautiful surprises.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="closing section">
+      <div class="container closing-card">
+        <p class="eyebrow"><span></span> This day is yours <span></span></p>
+        <h2>More life.<br><em>More joy.</em><br>More beautiful memories.</h2>
+        <p>And may the best parts of your story still be waiting to be written.</p>
+        <button class="celebrate-button" id="celebrateButton" type="button">Celebrate Priscilla <span>✦</span></button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">P<span>.</span></div>
+      <p>Made with warmth, good wishes & a little bit of magic.</p>
+      <p class="footer-year">© 2026 · Priscilla's Birthday</p>
+    </div>
+  </footer>
+
+  <script>
+    const button = document.getElementById('celebrateButton');
+    const symbols = ['✦', '✧', '♡', '·', '✺'];
+
+    button.addEventListener('click', () => {
+      const burst = document.createElement('div');
+      burst.className = 'confetti-burst';
+      document.body.appendChild(burst);
+
+      for (let i = 0; i < 34; i += 1) {
+        const piece = document.createElement('span');
+        piece.textContent = symbols[Math.floor(Math.random() * symbols.length)];
+        piece.style.setProperty('--x', `${(Math.random() - 0.5) * 80}vw`);
+        piece.style.setProperty('--y', `${Math.random() * 90 + 30}vh`);
+        piece.style.setProperty('--r', `${Math.random() * 720 - 360}deg`);
+        piece.style.setProperty('--d', `${Math.random() * 0.7}s`);
+        burst.appendChild(piece);
+      }
+
+      setTimeout(() => burst.remove(), 2200);
+    });
+  </script>
+</body>
+</html>

@@ -2,7 +2,7 @@
 
 A beautiful, elegant, and personal birthday website created specially for **Priscilla Onifade** to celebrate her special day. 💐✨
 
-This website is more than a birthday greeting — it is a small digital space created to celebrate **her, her beauty, her journey, and another year of becoming**.
+This website is more than a birthday greeting - it is a small digital space created to celebrate **her, her beauty, her journey, and another year of becoming**.
 
 ## 🌸 About
 

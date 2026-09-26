@@ -166,4 +166,4 @@ A small website for a special person and a beautiful new chapter.
 
 This project was created as a personal birthday project.
 
-© 2026 — Created specially for Priscilla Onifade. 💐
+© 2026 - Created specially for Priscilla Onifade. 💐
